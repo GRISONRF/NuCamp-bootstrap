@@ -7,21 +7,22 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #3046C5;
+    color: #779607;
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: #eeffc8;
 }
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#e3ffc8, rgb(255, 255, 255));
     padding: 20px 0;
 }
 
 .jumbotron {
+    margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, #576b10, #98c530, #98e465 );
     color: white;
 }
 
@@ -29,4 +30,12 @@ footer {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.navbar {
+    background-color:#47531a;
+}
+
+.fa {
+    margin: 5px;
 }
